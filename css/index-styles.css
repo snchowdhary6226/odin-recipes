@@ -1,0 +1,45 @@
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: steelblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
+  margin-right: 0.5rem;
+  font-size: 1.8rem;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+
+  a {
+    font-size: 1.8rem;
+  }
+
+  ul {
+    width: 80%;
+  }
+}
